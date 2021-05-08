@@ -1,7 +1,7 @@
 # 2021_MSSP
 This repository shares the established deep learning models presented in the paper: 
 
-Rih-Teng Wu et al. (2021) "A Physics-constrained Deep Learning Based Approach for Acoustic Inverse Scattering Problems," Mechanical Systems and Signal Processing
+Rih-Teng Wu et al. (2021) "A Physics-constrained Deep Learning Based Approach for Acoustic Inverse Scattering Problems," *Mechanical Systems and Signal Processing*
 
 In this study, three scenarios of acoustic scattering experiments are designed:
 
