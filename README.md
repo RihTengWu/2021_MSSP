@@ -1,7 +1,7 @@
 # 2021_MSSP
 This repository shares the established deep learning models presented in the paper: 
 
-Rih-Teng Wu et al. (2021) "A Physics-constrained Deep Learning Based Approach for Acoustic Inverse Scattering Problems," *Mechanical Systems and Signal Processing*
+[1] Rih-Teng Wu et al. (2021) "A Physics-constrained Deep Learning Based Approach for Acoustic Inverse Scattering Problems," *Mechanical Systems and Signal Processing*
 
 In this study, three scenarios of acoustic scattering experiments are designed:
 
@@ -19,4 +19,4 @@ These models are implemented in Python 2 using PyTorch version 0.2 with CUDA 8.0
 
 **Scenario 3**: model_3_300_62
 
-For the model in Scenario 1, given an input real and imaginary part of the pressure fields (with size 270x210x2)
+All the three models are implemented with a geometry estimator and a deep-autoencoder. The geometry estimator and the decoder shares the features learned from the encoder. For the model in Scenario 1, given an input real and imaginary part of the pressure fields (with size 270x210x2), the geometry estimator will output a weight factor that controls the shape of the scatterer, and the decoder will output the reconstructed real and imaginary part of the pressure fields. For the model in Scenario 2, given an input real and imaginary part of the pressure fields (with size 270x210x2), the geometry estimator will output a scatterer configuration (defined in [1]) that controls the shape of the scatterer, and the decoder will output the reconstructed real and imaginary part of the pressure fields.
