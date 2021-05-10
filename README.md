@@ -53,7 +53,7 @@ example_outputs.txt: The outputs of example_design.py, which are the scatterer c
 
 **If you find this repository useful and informative, please cite the following paper**:
 
-Rih-Teng Wu et al. (2021) "A Physics-constrained Deep Learning Based Approach for Acoustic Inverse Scattering Problems," *Mechanical Systems and Signal Processing*
+Rih-Teng Wu, Mehdi Jokar, Mohammad R. Jahanshahi, Fabio Semperlotti. (2021) "A Physics-constrained Deep Learning Based Approach for Acoustic Inverse Scattering Problems," *Mechanical Systems and Signal Processing*
 
 
 
