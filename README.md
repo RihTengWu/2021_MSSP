@@ -51,7 +51,7 @@ example_outputs.txt: The outputs of example_design.py, which are the scatterer c
 
 2. The pressure fileds in example_inputs.pt are saved by scaling with the gobal maximum and minimum values. Therefore, in example_design.py, these pressure fields are first scaled back to their original values, and then they are scaled separately using the extreme values within each wave frequency.
 
-3. To run the example_design.py properly, you should specify a correct path for the variable "image_path" accordingly.
+3. To run the example_design.py properly, you should specify a correct file path for the variable "image_path" accordingly.
 
 **If you find this repository useful and informative, please cite the following paper**:
 
